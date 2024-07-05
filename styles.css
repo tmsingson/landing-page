@@ -1,6 +1,8 @@
 
 body {
     font-family: Roboto;
+    display: flex;
+    flex-direction: column;
 }
 
 .top {
@@ -28,14 +30,14 @@ body {
     flex-wrap: wrap;
 }
 
-h1 {
+.hero > h1 {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
     margin-bottom: 0;
 }
 
-p {
+.hero > p {
     font-size: 18px;
     color: #E5E7EB;
     margin-top: 0;
@@ -57,7 +59,7 @@ p {
     font-weight: 800;
 }
 
-ul {
+.top-head > ul {
     list-style: none;
     display: flex;  
     gap: 15px;
@@ -73,4 +75,37 @@ button {
     font-weight: bold;
     border-radius: 8px;
     padding: 8px 20px;
+}
+
+.mid-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid-boxes > h1 {
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.mid-boxes > ul {
+    list-style: none;
+    display: flex;
+    gap: 45px;
+    padding: 0;
+    margin: 0;
+}
+
+.mid-boxes > ul > li {
+    display: flex;
+    max-width: 150px;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.mid-boxes > ul > li > img {
+    max-width: 150px;
 }
