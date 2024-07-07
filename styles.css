@@ -1,3 +1,4 @@
+/* Add padding and margin percentages */
 
 body {
     font-family: Roboto;
@@ -98,6 +99,7 @@ button {
 .mid-boxes > ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     gap: 45px;
     padding: 0;
     margin: 0;
