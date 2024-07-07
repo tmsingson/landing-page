@@ -53,7 +53,7 @@ body {
 }
 
 .top-mid-image > * {
-    max-width: 400px;
+    max-width: 30vw;
 }
 
 .header-logo {
@@ -124,7 +124,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 50px 400px 50px;
+    padding: 50px 30% 50px;
     background-color: #E5E7EB;
 }
 
